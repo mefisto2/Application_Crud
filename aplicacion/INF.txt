@@ -1,0 +1,83 @@
+ESPAÑOL:
+**********APLICACION CRUD "MONGODB"************
+Esta aplicacion realiza operaciones basicas en la base
+de datos mongo, siempre y cuando dicha base esta alojada en:
+localhost y su puerto sea 27017.
+Si la ubicacion o el puerto son erroneos a su base de datos:
+1: abrir con un editor de python los archivos alojados en "aplicacion".
+2: modificar la linea =
+client = MongoClient('localhost:27017')
+localhost = aqui se coloca la ubicacion.
+27017 = aqui se coloca el puerto.
+
+--------------------------------------------------------------------
+
+Operaciones que realiza el script: 
+1_borrar
+2_escribir
+3_leer
+4_actualizar
+
+-------------------------------------------------------------------
+
+parametros de la DB:
+1_id
+2_nombre
+3_edad
+4_pais
+
+------------------------------------------------------------------
+
+Requerimientos:
+Para utilizar estos scripts debes tener previamente instalado:
+1_ MongoDB
+2_Python
+
+-----------------------------------------------------------------
+
+PASOS:
+1_ Ejecutar principal.py
+
+***********************************************************************
+
+ENGLISH:
+********** CRUD APPLICATION "MONGODB" ************
+This application performs basic operations on the base
+of mongo data, as long as said base is hosted in:
+localhost and its port is 27017.
+If the location or port is wrong to your database:
+1: open files hosted in "application" with a python editor.
+2: modify the line =
+client = MongoClient ('localhost: 27017')
+localhost = here the location is placed.
+27017 = here the port is placed.
+
+-------------------------------------------------- ------------------
+
+Operations performed by the script:
+1_Delete
+2_write
+3_read
+4_Update
+
+-------------------------------------------------- -----------------
+
+DB parameters:
+1_id
+2_name
+3_Age
+4_country
+
+-------------------------------------------------- ----------------
+
+Requirements:
+To use these scripts you must have previously installed:
+1_ MongoDB
+2_Python
+
+-------------------------------------------------- ---------------
+
+STEPS:
+1_ Run main.py
+
+************************************************** *********************
